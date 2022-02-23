@@ -1,0 +1,84 @@
+{
+  "title": "SAC CLoud",
+  "meta": [
+    {
+      "hid": "charset",
+      "charset": "utf-8"
+    },
+    {
+      "hid": "viewport",
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "hid": "mobile-web-app-capable",
+      "name": "mobile-web-app-capable",
+      "content": "yes"
+    },
+    {
+      "hid": "apple-mobile-web-app-title",
+      "name": "apple-mobile-web-app-title",
+      "content": "SAC CLoud"
+    },
+    {
+      "hid": "author",
+      "name": "author",
+      "content": "INSAC"
+    },
+    {
+      "hid": "description",
+      "name": "description",
+      "content": "Plataforma de utilidades SAC Cloud"
+    },
+    {
+      "hid": "theme-color",
+      "name": "theme-color",
+      "content": "#fff"
+    },
+    {
+      "hid": "og:type",
+      "name": "og:type",
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "hid": "og:title",
+      "name": "og:title",
+      "property": "og:title",
+      "content": "SAC CLoud"
+    },
+    {
+      "hid": "og:site_name",
+      "name": "og:site_name",
+      "property": "og:site_name",
+      "content": "SAC CLoud"
+    },
+    {
+      "hid": "og:description",
+      "name": "og:description",
+      "property": "og:description",
+      "content": "Plataforma de utilidades SAC Cloud"
+    }
+  ],
+  "link": [
+    {
+      "hid": "shortcut-icon",
+      "rel": "shortcut icon",
+      "href": "/_nuxt/icons/icon_64x64.36ec40.png"
+    },
+    {
+      "hid": "apple-touch-icon",
+      "rel": "apple-touch-icon",
+      "href": "/_nuxt/icons/icon_512x512.36ec40.png",
+      "sizes": "512x512"
+    },
+    {
+      "rel": "manifest",
+      "href": "/_nuxt/manifest.b7fa434b.json",
+      "hid": "manifest"
+    }
+  ],
+  "htmlAttrs": {
+    "lang": "es"
+  }
+}
