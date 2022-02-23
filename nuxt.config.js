@@ -1,5 +1,6 @@
 import axios from "./config/axios"
 import build from "./config/build"
+import buildDir from "./config/buildDir"
 import buildModules from "./config/buildModules"
 import components from "./config/components"
 import css from "./config/css"
@@ -23,6 +24,7 @@ import vue from "./config/vue"
 export default {
   axios,
   build,
+  buildDir,
   buildModules,
   components,
   css,
