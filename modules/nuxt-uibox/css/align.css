@@ -1,0 +1,7 @@
+.self_center { align-self: center; }
+.self_end { align-self: end; }
+.self_normal { align-self: normal; }
+
+.items_center { align-items: center; }
+.items_end { align-items: end; }
+.items_start { align-items: start; }

@@ -1,0 +1,25 @@
+{
+  "author": {
+    "name": "Abel Suárez",
+    "url": "https://github.com/lebazeraus"
+  },
+  "homepage": "https://github.com/lebazeraus/nuxt-uibox",
+  "keywords": [
+    "nuxt",
+    "uibox",
+    "components",
+    "vue"
+  ],
+  "license": "MIT",
+  "name": "nuxt-uibox",
+  "private": false,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "version": "0.0.21-beta"
+}

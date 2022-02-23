@@ -1,0 +1,346 @@
+:root {
+  --primary-color: 255, 63, 5;
+  --secondary-color: 33, 33, 33;
+  --accent-color: 255, 208, 194;
+  --black: 34, 34, 34;
+  --white: 255, 255, 255;
+  --gray: 75, 65, 62;
+  --graylight: 126, 114, 111;
+  --red: 235, 28, 28;
+  --green: 45, 235, 28;
+  --blue: 28, 100, 235;
+  --yellow: 235, 232, 28;
+
+  --nuxt-uibox-color-primary: var(--primary-color);
+  --nuxt-uibox-color-secondary: var(--secondary-color);
+  --nuxt-uibox-color-accent: var(--accent-color);
+  --nuxt-uibox-color-black: var(--black);
+  --nuxt-uibox-color-white: var(--white);
+  --nuxt-uibox-color-gray: var(--gray);
+  --nuxt-uibox-color-graylight: var(--graylight);
+  --nuxt-uibox-color-yellow: var(--yellow);
+  --nuxt-uibox-color-blue: var(--blue);
+  --nuxt-uibox-color-red: var(--red);
+  --nuxt-uibox-color-green: var(--green);
+
+  /* Icon */
+  --nuib-icon-category-accent-c: var(--nuxt-uibox-color-accent);
+  --nuib-icon-category-neutral-c: var(--nuxt-uibox-color-white);
+  --nuib-icon-category-primary-c: var(--nuxt-uibox-color-primary);
+  --nuib-icon-category-secondary-c: var(--nuxt-uibox-color-secondary);
+  /* Button */
+  --nuib-button-category-accent-bg: var(--nuxt-uibox-color-accent);
+  --nuib-button-category-accent-br: var(--nuxt-uibox-color-accent);
+  --nuib-button-category-accent-c: var(--nuxt-uibox-color-primary);
+  --nuib-button-category-accent-h: var(--nuxt-uibox-color-primary);
+  --nuib-button-category-neutral-bg: var(--nuxt-uibox-color-white);
+  --nuib-button-category-neutral-br: var(--nuxt-uibox-color-white);
+  --nuib-button-category-neutral-c: var(--nuxt-uibox-color-primary);
+  --nuib-button-category-neutral-h: var(--nuxt-uibox-color-accent);
+  --nuib-button-category-primary-bg: var(--nuxt-uibox-color-primary);
+  --nuib-button-category-primary-br: var(--nuxt-uibox-color-primary);
+  --nuib-button-category-primary-c: var(--nuxt-uibox-color-white);
+  --nuib-button-category-primary-h: var(--nuxt-uibox-color-primary);
+  --nuib-button-category-secondary-bg: var(--nuxt-uibox-color-secondary);
+  --nuib-button-category-secondary-br: var(--nuxt-uibox-color-secondary);
+  --nuib-button-category-secondary-c: var(--nuxt-uibox-color-white);
+  --nuib-button-category-secondary-h: var(--nuxt-uibox-color-secondary);
+  --nuib-button-disabled-bg: var(--nuxt-uibox-color-graylight);
+  --nuib-button-disabled-br: var(--nuxt-uibox-color-graylight);
+  --nuib-button-disabled-c: var(--nuxt-uibox-color-gray);
+  /* Input */
+  --nuib-input-category-accent-bg: var(--nuxt-uibox-color-accent);
+  --nuib-input-category-accent-br: var(--nuxt-uibox-color-accent);
+  --nuib-input-category-accent-c: var(--nuxt-uibox-color-black);
+  --nuib-input-category-accent-f: var(--nuxt-uibox-color-primary);
+  --nuib-input-category-accent-p: var(--nuxt-uibox-color-primary);
+  --nuib-input-category-neutral-bg: var(--nuxt-uibox-color-black);
+  --nuib-input-category-neutral-br: var(--nuxt-uibox-color-gray);
+  --nuib-input-category-neutral-c: var(--nuxt-uibox-color-white);
+  --nuib-input-category-neutral-f: var(--nuxt-uibox-color-primary);
+  --nuib-input-category-neutral-p: var(--nuxt-uibox-color-gray);
+  --nuib-input-category-primary-bg: var(--nuxt-uibox-color-primary);
+  --nuib-input-category-primary-br: var(--nuxt-uibox-color-primary);
+  --nuib-input-category-primary-c: var(--nuxt-uibox-color-white);
+  --nuib-input-category-primary-f: var(--nuxt-uibox-color-primary);
+  --nuib-input-category-primary-p: var(--nuxt-uibox-color-white);
+  --nuib-input-category-secondary-bg: var(--nuxt-uibox-color-white);
+  --nuib-input-category-secondary-br: var(--nuxt-uibox-color-c);
+  --nuib-input-category-secondary-c: var(--nuxt-uibox-color-black);
+  --nuib-input-category-secondary-f: var(--nuxt-uibox-color-accent);
+  --nuib-input-category-secondary-p: var(--nuxt-uibox-color-black);
+  --nuib-input-disabled-bg: var(--nuxt-uibox-color-graylight);
+  --nuib-input-disabled-br: var(--nuxt-uibox-color-gray);
+  --nuib-input-disabled-c: var(--nuxt-uibox-color-gray);
+  /* Select */
+  --nuib-select-category-accent-bg: var(--nuxt-uibox-color-accent);
+  --nuib-select-category-accent-br: var(--nuxt-uibox-color-accent);
+  --nuib-select-category-accent-c: var(--nuxt-uibox-color-black);
+  --nuib-select-category-accent-p: var(--nuxt-uibox-color-primary);
+  --nuib-select-category-neutral-bg: var(--nuxt-uibox-color-black);
+  --nuib-select-category-neutral-br: var(--nuxt-uibox-color-gray);
+  --nuib-select-category-neutral-c: var(--nuxt-uibox-color-white);
+  --nuib-select-category-neutral-p: var(--nuxt-uibox-color-gray);
+  --nuib-select-category-primary-bg: var(--nuxt-uibox-color-primary);
+  --nuib-select-category-primary-br: var(--nuxt-uibox-color-primary);
+  --nuib-select-category-primary-c: var(--nuxt-uibox-color-white);
+  --nuib-select-category-primary-p: var(--nuxt-uibox-color-white);
+  --nuib-select-category-secondary-bg: var(--nuxt-uibox-color-secondary);
+  --nuib-select-category-secondary-br: var(--nuxt-uibox-color-secondary);
+  --nuib-select-category-secondary-c: var(--nuxt-uibox-color-white);
+  --nuib-select-category-secondary-p: var(--nuxt-uibox-color-white);
+  --nuib-select-disabled-bg: var(--nuxt-uibox-color-graylight);
+  --nuib-select-disabled-br: var(--nuxt-uibox-color-gray);
+  --nuib-select-disabled-c: var(--nuxt-uibox-color-gray);
+  /* Label */
+  --nuib-label-category-accent-c: var(--nuxt-uibox-color-accent);
+  --nuib-label-category-neutral-c: var(--nuxt-uibox-color-black);
+  --nuib-label-category-primary-c: var(--nuxt-uibox-color-white);
+  --nuib-label-category-secondary-c: var(--nuxt-uibox-color-primary);
+  /* Heading */
+  --nuib-heading-category-accent-c: var(--nuxt-uibox-color-accent);
+  --nuib-heading-category-neutral-c: var(--nuxt-uibox-color-black);
+  --nuib-heading-category-primary-c: var(--nuxt-uibox-color-white);
+  --nuib-heading-category-secondary-c: var(--nuxt-uibox-color-primary);
+  /* P */
+  --nuib-p-category-accent-c: var(--nuxt-uibox-color-accent);
+  --nuib-p-category-neutral-c: var(--nuxt-uibox-color-black);
+  --nuib-p-category-primary-c: var(--nuxt-uibox-color-white);
+  --nuib-p-category-secondary-c: var(--nuxt-uibox-color-primary);
+  /* UL */
+  --nuib-ul-category-accent-bg: var(--nuxt-uibox-color-accent);
+  --nuib-ul-category-accent-br: var(--nuxt-uibox-color-accent);
+  --nuib-ul-category-accent-f: var(--nuxt-uibox-color-primary);
+  --nuib-ul-category-accent-h: var(--nuxt-uibox-color-primary);
+  --nuib-ul-category-neutral-bg: var(--nuxt-uibox-color-black);
+  --nuib-ul-category-neutral-br: var(--nuxt-uibox-color-white);
+  --nuib-ul-category-neutral-f: var(--nuxt-uibox-color-primary);
+  --nuib-ul-category-neutral-h: var(--nuxt-uibox-color-accent);
+  --nuib-ul-category-primary-bg: var(--nuxt-uibox-color-primary);
+  --nuib-ul-category-primary-br: var(--nuxt-uibox-color-primary);
+  --nuib-ul-category-primary-f: var(--nuxt-uibox-color-white);
+  --nuib-ul-category-primary-h: var(--nuxt-uibox-color-primary);
+  --nuib-ul-category-secondary-bg: var(--nuxt-uibox-color-secondary);
+  --nuib-ul-category-secondary-br: var(--nuxt-uibox-color-secondary);
+  --nuib-ul-category-secondary-f: var(--nuxt-uibox-color-white);
+  --nuib-ul-category-secondary-h: var(--nuxt-uibox-color-secondary);
+  /* Li */
+  --nuib-li-category-accent-c: var(--nuxt-uibox-color-accent);
+  --nuib-li-category-neutral-c: var(--nuxt-uibox-color-white);
+  --nuib-li-category-primary-c: var(--nuxt-uibox-color-white);
+  --nuib-li-category-secondary-c: var(--nuxt-uibox-color-secondary);
+  /* Alert */
+  --nuib-alert-category-accent-bg: var(--nuxt-uibox-color-accent);
+  --nuib-alert-category-neutral-bg: var(--nuxt-uibox-color-black);
+  --nuib-alert-category-primary-bg: var(--nuxt-uibox-color-primary);
+  --nuib-alert-category-secondary-bg: var(--nuxt-uibox-color-secondary);
+  --nuib-alert-toast-normal-bg: var(--nuxt-uibox-color-gray);
+  --nuib-alert-toast-success-bg: var(--nuxt-uibox-color-green);
+  --nuib-alert-toast-error-bg: var(--nuxt-uibox-color-red);
+  --nuib-alert-toast-warn-bg: var(--nuxt-uibox-color-yellow);
+  /* Prompt */
+  --nuib-prompt-category-accent-bg: var(--nuxt-uibox-color-accent);
+  --nuib-prompt-category-neutral-bg: var(--nuxt-uibox-color-black);
+  --nuib-prompt-category-primary-bg: var(--nuxt-uibox-color-gray);
+  --nuib-prompt-category-secondary-bg: var(--nuxt-uibox-color-secondary);
+  /* Animation */
+  --nuib-loading-animation: bounce .8s infinite alternate;
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  scroll-behavior: smooth;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body::selection {
+  background-color: var(--primary-color);
+  color: var(--black);
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, b, button, input, textarea {
+  outline: none;
+  font-family: inherit;
+}
+
+button, input, ul, textarea {
+  padding: 0;
+}
+
+b, button, h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-weight: 700;
+}
+
+input, textarea, p {
+  font-weight: 500;
+}
+
+hr {
+  background-color: var(--gray);
+  border: none;
+  height: 1px;
+  margin: 16px 0;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, label, span, li {
+  color: var(--black);
+  text-transform: inherit;
+}
+
+a, label, span, li {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: var(--gray);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: var(--gray);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: var(--gray);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: var(--gray);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+pre {
+  font-size: 14px;
+}
+
+[tabindex] {
+  outline: none;
+}
+
+[class*="__content"] {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1248px;
+  padding: 0 24px;
+  width: 100%;
+}
+
+[hide-scroll] {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+[readonly] {
+  pointer-events: none;
+}
+
+.text-is-centered {
+  text-align: center;
+}
+
+.tooltip {
+  background-color: var(--black);
+  border-radius: 3px;
+  color: var(--white);
+  font-size: 13px;
+  padding: 3px 8px 4px;
+  z-index: 10;
+}
+
+.toasted-container.toast-box .toasted.toast {
+  border-radius: 3px;
+  color: var(--white);
+  font-size: 13px;
+  letter-spacing: .3px;
+  line-height: 21px;
+  box-shadow: none;
+}
+.toasted-container.toast-box .toasted.toast.success {
+  background-color: var(--green);
+}
+.toasted-container.toast-box .toasted.toast.error {
+  background-color: var(--red);
+}
+.toasted-container.toast-box .toasted.toast.default {
+  background-color: var(--black);
+}
+.toasted-container.toast-box .toasted.toast.info {
+  background-color: var(--blue);
+}
+
+div[month-parse] {
+  display: inline;
+}
+div[month-parse="01"]:before {
+  content: 'Ene.';
+}
+div[month-parse="02"]:before {
+  content: 'Feb.';
+}
+div[month-parse="03"]:before {
+  content: 'Mar.';
+}
+div[month-parse="04"]:before {
+  content: 'Abr.';
+}
+div[month-parse="05"]:before {
+  content: 'May.';
+}
+div[month-parse="06"]:before {
+  content: 'Jun.';
+}
+div[month-parse="07"]:before {
+  content: 'Jul.';
+}
+div[month-parse="08"]:before {
+  content: 'Ago.';
+}
+div[month-parse="09"]:before {
+  content: 'Sep.';
+}
+div[month-parse="10"]:before {
+  content: 'Oct.';
+}
+div[month-parse="11"]:before {
+  content: 'Nov.';
+}
+div[month-parse="12"]:before {
+  content: 'Dic.';
+}

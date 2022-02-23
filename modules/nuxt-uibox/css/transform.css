@@ -1,0 +1,4 @@
+.compact { font-size: 12px !important; height: 32px !important;}
+.fill { width: 100%; }
+.snip { display: -webkit-box !important; -webkit-box-orient: vertical; overflow: hidden; }
+.upper { text-transform: uppercase; }

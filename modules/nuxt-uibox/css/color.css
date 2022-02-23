@@ -1,0 +1,77 @@
+.color_primary { color: rgb(var(--nuxt-uibox-color-primary)); } /** Primary color */
+.color_secondary { color: rgb(var(--nuxt-uibox-color-secondary)); } /** Secondary color */
+.color_accent { color: rgb(var(--nuxt-uibox-color-accent)); } /** Accent color */
+.color_black { color: rgb(var(--nuxt-uibox-color-black)); } /** Black color */
+.color_white { color: rgb(var(--nuxt-uibox-color-white)); } /** White color */
+.color_gray { color: rgb(var(--nuxt-uibox-color-gray)); } /** Gray color */
+.color_graylight { color: rgb(var(--nuxt-uibox-color-graylight)); } /** Graylight color */
+.color_yellow { color: rgb(var(--nuxt-uibox-color-yellow)); } /** Yellow color */
+.color_blue { color: rgb(var(--nuxt-uibox-color-blue)); } /** Blue color */
+.color_red { color: rgb(var(--nuxt-uibox-color-red)); } /** Red color */
+.color_green { color: rgb(var(--nuxt-uibox-color-green)); } /** Green color */
+
+/* BG */
+.bgColor_primary { background-color: rgb(var(--nuxt-uibox-color-primary)); } /** Primary bg */
+.bgColor_secondary { background-color: rgb(var(--nuxt-uibox-color-secondary)); } /** Secondary bg */
+.bgColor_accent { background-color: rgb(var(--nuxt-uibox-color-accent)); } /** Accent bg */
+.bgColor_black { background-color: rgb(var(--nuxt-uibox-color-black)); } /** Black bg */
+.bgColor_white { background-color: rgb(var(--nuxt-uibox-color-white)); } /** White bg */
+.bgColor_gray { background-color: rgb(var(--nuxt-uibox-color-gray)); } /** Gray bg */
+.bgColor_graylight { background-color: rgb(var(--nuxt-uibox-color-graylight)); } /** Graylight bg */
+.bgColor_yellow { background-color: rgb(var(--nuxt-uibox-color-yellow)); } /** Yellow bg */
+.bgColor_blue { background-color: rgb(var(--nuxt-uibox-color-blue)); } /** Blue bg */
+.bgColor_red { background-color: rgb(var(--nuxt-uibox-color-red)); } /** Red bg */
+.bgColor_green { background-color: rgb(var(--nuxt-uibox-color-green)); } /** Green bg */
+
+/* BR */
+.brColor_primary { border-color: rgb(var(--nuxt-uibox-color-primary)); } /** Primary br */
+.brColor_secondary { border-color: rgb(var(--nuxt-uibox-color-secondary)); } /** Secondary br */
+.brColor_accent { border-color: rgb(var(--nuxt-uibox-color-accent)); } /** Accent br */
+.brColor_black { border-color: rgb(var(--nuxt-uibox-color-black)); } /** Black br */
+.brColor_white { border-color: rgb(var(--nuxt-uibox-color-white)); } /** White br */
+.brColor_gray { border-color: rgb(var(--nuxt-uibox-color-gray)); } /** Gray br */
+.brColor_graylight { border-color: rgb(var(--nuxt-uibox-color-graylight)); } /** Graylight br */
+.brColor_yellow { border-color: rgb(var(--nuxt-uibox-color-yellow)); } /** Yellow br */
+.brColor_blue { border-color: rgb(var(--nuxt-uibox-color-blue)); } /** Blue br */
+.brColor_red { border-color: rgb(var(--nuxt-uibox-color-red)); } /** Red br */
+.brColor_green { border-color: rgb(var(--nuxt-uibox-color-green)); } /** Green br */
+
+/* BGF/BGH */
+.bgFocusColor_primary:focus, .bgHoverColor_primary:hover { background-color: rgba(var(--nuxt-uibox-color-primary), 16%); cursor: pointer; } /** Primary bg */
+.bgFocusColor_secondary:focus, .bgHoverColor_secondary:hover { background-color: rgba(var(--nuxt-uibox-color-secondary), 16%); cursor: pointer; } /** Secondary bg */
+.bgFocusColor_accent:focus, .bgHoverColor_accent:hover { background-color: rgba(var(--nuxt-uibox-color-accent), 16%); cursor: pointer; } /** Accent bg */
+.bgFocusColor_black:focus, .bgHoverColor_black:hover { background-color: rgba(var(--nuxt-uibox-color-black), 16%); cursor: pointer; } /** Black bg */
+.bgFocusColor_white:focus, .bgHoverColor_white:hover { background-color: rgba(var(--nuxt-uibox-color-white), 16%); cursor: pointer; } /** White bg */
+.bgFocusColor_gray:focus, .bgHoverColor_gray:hover { background-color: rgba(var(--nuxt-uibox-color-gray), 16%); cursor: pointer; } /** Gray bg */
+.bgFocusColor_graylight:focus, .bgHoverColor_graylight:hover { background-color: rgba(var(--nuxt-uibox-color-graylight), 16%); cursor: pointer; } /** Graylight bg */
+.bgFocusColor_yellow:focus, .bgHoverColor_yellow:hover { background-color: rgba(var(--nuxt-uibox-color-yellow), 16%); cursor: pointer; } /** Yellow bg */
+.bgFocusColor_blue:focus, .bgHoverColor_blue:hover { background-color: rgba(var(--nuxt-uibox-color-blue), 16%); cursor: pointer; } /** Blue bg */
+.bgFocusColor_red:focus, .bgHoverColor_red:hover { background-color: rgba(var(--nuxt-uibox-color-red), 16%); cursor: pointer; } /** Red bg */
+.bgFocusColor_green:focus, .bgHoverColor_green:hover { background-color: rgba(var(--nuxt-uibox-color-green), 16%); cursor: pointer; } /** Green bg */
+
+
+/* BRF/BRH */
+.brFocusColor_primary:focus, .brHoverColor_primary:hover { border-color: rgba(var(--nuxt-uibox-color-primary), 48%); } /** Primary brf/brh */
+.brFocusColor_secondary:focus, .brHoverColor_secondary:hover { border-color: rgba(var(--nuxt-uibox-color-secondary), 48%); } /** Secondary brf/brh */
+.brFocusColor_accent:focus, .brHoverColor_accent:hover { border-color: rgba(var(--nuxt-uibox-color-accent), 48%); } /** Accent brf/brh */
+.brFocusColor_black:focus, .brHoverColor_black:hover { border-color: rgba(var(--nuxt-uibox-color-black), 48%); } /** Black brf/brh */
+.brFocusColor_white:focus, .brHoverColor_white:hover { border-color: rgba(var(--nuxt-uibox-color-white), 48%); } /** White brf/brh */
+.brFocusColor_gray:focus, .brHoverColor_gray:hover { border-color: rgba(var(--nuxt-uibox-color-gray), 48%); } /** Gray brf/brh */
+.brFocusColor_graylight:focus, .brHoverColor_graylight:hover { border-color: rgba(var(--nuxt-uibox-color-graylight), 48%); } /** Graylight brf/brh */
+.brFocusColor_yellow:focus, .brHoverColor_yellow:hover { border-color: rgba(var(--nuxt-uibox-color-yellow), 48%); } /** Yellow brf/brh */
+.brFocusColor_blue:focus, .brHoverColor_blue:hover { border-color: rgba(var(--nuxt-uibox-color-blue), 48%); } /** Blue brf/brh */
+.brFocusColor_red:focus, .brHoverColor_red:hover { border-color: rgba(var(--nuxt-uibox-color-red), 48%); } /** Red brf/brh */
+.brFocusColor_green:focus, .brHoverColor_green:hover { border-color: rgba(var(--nuxt-uibox-color-green), 48%); } /** Green brf/brh */
+
+/* BSF/BSH */
+.bsFocusColor_primary:focus, .bsHoverColor_primary:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-primary), 24%); cursor: pointer; } /** Primary bsf/bsh */
+.bsFocusColor_secondary:focus, .bsHoverColor_secondary:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-secondary), 24%); cursor: pointer; } /** Secondary bsf/bsh */
+.bsFocusColor_accent:focus, .bsHoverColor_accent:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-accent), 24%); cursor: pointer; } /** Accent bsf/bsh */
+.bsFocusColor_black:focus, .bsHoverColor_black:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-black), 24%); cursor: pointer; } /** Black bsf/bsh */
+.bsFocusColor_white:focus, .bsHoverColor_white:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-white), 24%); cursor: pointer; } /** White bsf/bsh */
+.bsFocusColor_gray:focus, .bsHoverColor_gray:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-gray), 24%); cursor: pointer; } /** Gray bsf/bsh */
+.bsFocusColor_graylight:focus, .bsHoverColor_graylight:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-graylight), 24%); cursor: pointer; } /** Graylight bsf/bsh */
+.bsFocusColor_yellow:focus, .bsHoverColor_yellow:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-yellow), 24%); cursor: pointer; } /** Yellow bsf/bsh */
+.bsFocusColor_blue:focus, .bsHoverColor_blue:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-blue), 24%); cursor: pointer; } /** Blue bsf/bsh */
+.bsFocusColor_red:focus, .bsHoverColor_red:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-red), 24%); cursor: pointer; } /** Red bsf/bsh */
+.bsFocusColor_green:focus, .bsHoverColor_green:hover { box-shadow: 0 0 0 3px rgba(var(--nuxt-uibox-color-green), 24%); cursor: pointer; } /** Green bsf/bsh */
