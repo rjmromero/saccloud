@@ -11,7 +11,6 @@ import loading from "./config/loading"
 import modules from "./config/modules"
 import plugins from "./config/plugins"
 import proxy from "./config/proxy"
-import publicRuntimeConfig from "./config/publicRuntimeConfig"
 import pwa from "./config/pwa"
 import robots from "./config/robots"
 import server from "./config/server"
@@ -35,7 +34,6 @@ export default {
   modules,
   plugins,
   proxy,
-  publicRuntimeConfig,
   pwa,
   robots,
   server,

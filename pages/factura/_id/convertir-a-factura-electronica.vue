@@ -87,7 +87,7 @@ async function fetchPost() {
     <Label center color="white" is-upper margin-bottom="24">{{ bussiness }}</Label>
     <P center color="graylight" margin-bottom="24">Por favor ingrese el código de validación{{ askForNIT ? ' y su identificación ' : ' ' }}para convertir a factura electrónica</P>
     <Loading v-if="isLoading"/>
-    <Grid v-else align-items="end" :auto-fill="askForNIT ? '144' : '272'" gap="16">
+    <Grid v-else align-items="end" :auto-fill="askForNIT ? '168' : '272'" gap="16">
       <Input v-model="dataSend.codigo_validacion" bg="black" color="white" holder="Código de validación"/>
       <Input v-if="askForNIT" v-model="dataSend.nit" bg="black" color="white" holder="Identificación/NIT/CC"/>
       <Button @click="fetchPost()" :disabled="!isValid" is-fill>Reclamar</Button>
