@@ -31,6 +31,16 @@
 .autoFill_352 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 352px), 1fr)); }
 .autoFill_360 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); }
 .autoFill_368 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 368px), 1fr)); }
+.autoFill_376 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 376px), 1fr)); }
+.autoFill_384 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 384px), 1fr)); }
+.autoFill_392 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 392px), 1fr)); }
+.autoFill_400 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr)); }
+.autoFill_408 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 408px), 1fr)); }
+.autoFill_416 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 416px), 1fr)); }
+.autoFill_424 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 424px), 1fr)); }
+.autoFill_432 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 432px), 1fr)); }
+.autoFill_440 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); }
+.autoFill_448 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 448px), 1fr)); }
 
 .columns_1fr_max { grid-template-columns: 1fr max-content; }
 .columns_max_1fr { grid-template-columns: max-content 1fr; }

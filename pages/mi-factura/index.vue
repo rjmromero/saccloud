@@ -3,7 +3,7 @@ const title = 'Mi Factura | SAC Cloud'
 const description = 'Solicita tu factura con SAC Cloud'
 const ogImage = 'https://www.saccloud.co/ogImage/index.png'
 const keywords = 'Plataforma, utilidades, SAC, Cloud'
-const canonical = `https://www.saccloud.co/mi-factura`
+const canonical = 'https://www.saccloud.co/mi-factura'
 
 export default {
   head: {

@@ -48,7 +48,7 @@ useFetch(async () => {
 
 <template>
   <Content max-width="624" padding-left="24" padding-right="24">
-    <Input bg="black" color="white" holder="Buscar" icon="search" margin-bottom="16"/>
+    <Input bg="black" color="white" holder="Buscar" icon="search" margin-bottom="16" margin-top="24"/>
     <Flex gap="24" space-between>
       <a v-for="($, i) in apps" :key="i" :href="$.to" target="_self">
         <Grid>
@@ -59,7 +59,3 @@ useFetch(async () => {
     </Flex>
   </Content>
 </template>
-
-<style>
-
-</style>

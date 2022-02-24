@@ -8,6 +8,11 @@ const data = ref({
   receptor: {}
 })
 
+const tos = ref([
+  `/factura/${params.value.id}/reclamar-puntos`,
+  `/factura/${params.value.id}/convertir-a-factura-electronica`
+])
+
 useFetch(async () => {
   try {
     data.value = await $axios.$post('/iccloud/v1/login/ver-documento-codigo', { codigo: params.value.id })
@@ -29,10 +34,9 @@ useFetch(async () => {
     <Label center color="graylight" margin-top="24"><b>EMITIDA</b></Label>
     <P center color="white">{{ data.factura.fecha }} {{ data.factura.hora }}</P>
     <Hr color="graylight"/>
-    <Loading v-if="false"/>
-    <Grid v-else auto-fill="200" gap="24">
-      <Button bg="gray" is-fill :to="`/factura/${params.id}/reclamar-puntos`">Reclamar tus puntos</Button>
-      <Button is-fill :to="`/factura/${params.id}/convertir-a-factura-electronica`">Convertir a factura electrónica</Button>
+    <Grid auto-fill="200" gap="24">
+      <Button bg="gray" is-fill :to="tos[0]">Reclamar tus puntos</Button>
+      <Button is-fill :to="tos[1]">Convertir a factura electrónica</Button>
     </Grid>
   </Content>
 </template>

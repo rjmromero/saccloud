@@ -10,6 +10,7 @@ export default {
     brRadius: { type: String },
     center: { type: Boolean },
     color: { type: String, default: 'black' },
+    isLarge: { type: Boolean },
     isSmall: { type: Boolean },
     isUpper: { type: Boolean },
     margin: { type: String },
@@ -34,7 +35,8 @@ export default {
       if (!!props.bg) root[CSSColor['bgColor_' + props.bg]] = true
       if (!!props.bgHover) root[CSSColor['bgHoverColor_' + props.bgHover]] = true
       if (!!props.color) root[CSSColor['color_' + props.color]] = true
-      if (true) root[CSSFont[props.isSmall ? 'size_14' : 'size_16']] = true
+      if (!props.isSmall) root[CSSFont[props.isLarge ? 'size_20' : 'size_16']] = true
+      if (!props.isLarge) root[CSSFont[props.isSmall ? 'size_14' : 'size_16']] = true
       if (!!props.margin) root[CSSMargin['all_' + props.margin]] = true
       if (!props.margin && !!props.marginBottom) root[CSSMargin['bottom_' + props.marginBottom]] = true
       if (!props.margin && !!props.marginLeft) root[CSSMargin['left_' + props.marginLeft]] = true

@@ -1,5 +1,3 @@
-<template></template>
-
 <script>
 export default {
   middleware: ({ redirect }) => {
@@ -8,6 +6,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<template></template>
