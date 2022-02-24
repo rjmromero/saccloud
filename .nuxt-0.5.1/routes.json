@@ -1,0 +1,62 @@
+[
+  {
+    "name": "licencia",
+    "path": "/licencia",
+    "component": "/home/runner/work/saccloud/saccloud/pages/licencia/index.vue",
+    "chunkName": "pages/licencia/index",
+    "url": "/licencia",
+    "_name": "_b95e3170"
+  },
+  {
+    "name": "mi-factura",
+    "path": "/mi-factura",
+    "component": "/home/runner/work/saccloud/saccloud/pages/mi-factura/index.vue",
+    "chunkName": "pages/mi-factura/index",
+    "url": "/mi-factura",
+    "_name": "_86124e3a"
+  },
+  {
+    "path": "/factura/:id?",
+    "component": "/home/runner/work/saccloud/saccloud/pages/factura/_id.vue",
+    "chunkName": "pages/factura/_id",
+    "children": [
+      {
+        "name": "factura-id",
+        "path": "",
+        "component": "/home/runner/work/saccloud/saccloud/pages/factura/_id/index.vue",
+        "chunkName": "pages/factura/_id/index",
+        "_name": "_621397dd"
+      },
+      {
+        "name": "factura-id-convertir-a-factura-electronica",
+        "path": "convertir-a-factura-electronica",
+        "component": "/home/runner/work/saccloud/saccloud/pages/factura/_id/convertir-a-factura-electronica.vue",
+        "chunkName": "pages/factura/_id/convertir-a-factura-electronica",
+        "_name": "_52c2cefe"
+      },
+      {
+        "name": "factura-id-reclamar-puntos",
+        "path": "reclamar-puntos",
+        "component": "/home/runner/work/saccloud/saccloud/pages/factura/_id/reclamar-puntos.vue",
+        "chunkName": "pages/factura/_id/reclamar-puntos",
+        "_name": "_0cb4df8e"
+      }
+    ],
+    "_name": "_0fdd9cda"
+  },
+  {
+    "name": "licencia-id",
+    "path": "/licencia/:id",
+    "component": "/home/runner/work/saccloud/saccloud/pages/licencia/_id.vue",
+    "chunkName": "pages/licencia/_id",
+    "_name": "_33001bb0"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/runner/work/saccloud/saccloud/pages/index.vue",
+    "chunkName": "pages/index",
+    "url": "/",
+    "_name": "_2fc9026e"
+  }
+]
