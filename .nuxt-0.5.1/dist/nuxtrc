@@ -1,2 +1,0 @@
-serverMiddleware.0.path=/_ipx
-serverMiddleware.0.handler=~~/.nuxt-0.5.1/dist/api/ipx.js
