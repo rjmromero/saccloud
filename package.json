@@ -1,13 +1,13 @@
 {
   "name": "saccloud",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "private": true,
   "scripts": {
-    "dev": "yarn uibox && nuxt",
+    "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "git pull && yarn && pm2 reload saccloud",
+    "deploy": "git fetch origin dev && git merge origin/dev && yarn && nuxt build && pm2 reload saccloud && git push origin main",
     "uibox": "degit lebazeraus/nuxt-uibox modules/nuxt-uibox --force"
   },
   "dependencies": {
