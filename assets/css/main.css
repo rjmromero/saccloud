@@ -1,0 +1,83 @@
+:root {
+  --primary-color: 255, 63, 5;
+  --secondary-color: 33, 33, 33;
+  --accent-color: 255, 208, 194;
+  --black: 34, 34, 34;
+  --white: 255, 255, 255;
+  --gray: 75, 65, 62;
+  --graylight: 126, 114, 111;
+  --red: 235, 28, 28;
+  --green: 45, 235, 28;
+  --blue: 28, 100, 235;
+  --yellow: 235, 232, 28;
+
+  --nuxt-uibox-color-primary: var(--primary-color);
+  --nuxt-uibox-color-secondary: var(--secondary-color);
+  --nuxt-uibox-color-accent: var(--accent-color);
+  --nuxt-uibox-color-black: var(--black);
+  --nuxt-uibox-color-white: var(--white);
+  --nuxt-uibox-color-gray: var(--gray);
+  --nuxt-uibox-color-graylight: var(--graylight);
+  --nuxt-uibox-color-yellow: var(--yellow);
+  --nuxt-uibox-color-blue: var(--blue);
+  --nuxt-uibox-color-red: var(--red);
+  --nuxt-uibox-color-green: var(--green);
+
+  --nuib-loading-animation: bounce .8s infinite alternate;
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.tooltip {
+  background-color: rgb(var(--black));
+  border-radius: 3px;
+  color: rgb(var(--white));
+  font-size: 12px;
+  letter-spacing: .3px;
+  line-height: 18px;
+  max-width: 288px;
+  padding: 4px 8px;
+  z-index: 10;
+}
+
+div[month-parse] {
+  display: inline;
+}
+div[month-parse="01"]:before {
+  content: 'Ene.';
+}
+div[month-parse="02"]:before {
+  content: 'Feb.';
+}
+div[month-parse="03"]:before {
+  content: 'Mar.';
+}
+div[month-parse="04"]:before {
+  content: 'Abr.';
+}
+div[month-parse="05"]:before {
+  content: 'May.';
+}
+div[month-parse="06"]:before {
+  content: 'Jun.';
+}
+div[month-parse="07"]:before {
+  content: 'Jul.';
+}
+div[month-parse="08"]:before {
+  content: 'Ago.';
+}
+div[month-parse="09"]:before {
+  content: 'Sep.';
+}
+div[month-parse="10"]:before {
+  content: 'Oct.';
+}
+div[month-parse="11"]:before {
+  content: 'Nov.';
+}
+div[month-parse="12"]:before {
+  content: 'Dic.';
+}

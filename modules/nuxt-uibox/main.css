@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body[hidden-scroll] {
+  overflow: hidden;
+}
+
+body ::selection {
+  background-color: rgb(var(--nuxt-uibox-color-primary));
+  color: rgb(var(--nuxt-uibox-color-black));
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0
+}
+
+a, b, button, input, textarea {
+  outline: none;
+  font-family: inherit;
+}
+
+button, input, ul, textarea {
+  padding: 0;
+}
+
+b, button, h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-weight: 700;
+}
+
+input, textarea, p {
+  font-weight: 400;
+  font-weight: 500;
+}
+
+hr {
+  background-color: rgb(var(--nuxt-uibox-color-graylight));
+  border: none;
+  height: 1px;
+  margin: 16px 0;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, label, span, li {
+  text-transform: inherit;
+}
+
+a, label, span, li {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+input[readonly],
+textarea[readonly] {
+  pointer-events: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0;
+  opacity: .72;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0;
+  opacity: .72;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0;
+  opacity: .72;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0;
+  opacity: .72;
+}
+
+pre {
+  font-size: 14px;
+}
+
+[tabindex] {
+  outline: none;
+}

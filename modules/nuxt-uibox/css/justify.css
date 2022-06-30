@@ -1,0 +1,6 @@
+.self_center { justify-self: center; }
+.self_end { justify-self: flex-end; }
+.self_normal { justify-self: normal; }
+
+.content_center { justify-items: center; justify-content: center }
+.content_end { justify-content: end }

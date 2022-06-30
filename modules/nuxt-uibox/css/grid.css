@@ -1,0 +1,54 @@
+.root { grid-auto-rows: auto; display: grid; position: relative; }
+
+.autoFill_128 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 128px), 1fr)); }
+.autoFill_136 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 136px), 1fr)); }
+.autoFill_144 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 144px), 1fr)); }
+.autoFill_152 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 152px), 1fr)); }
+.autoFill_160 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr)); }
+.autoFill_168 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 168px), 1fr)); }
+.autoFill_176 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 176px), 1fr)); }
+.autoFill_184 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 184px), 1fr)); }
+.autoFill_192 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 192px), 1fr)); }
+.autoFill_200 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
+.autoFill_208 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 208px), 1fr)); }
+.autoFill_216 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 216px), 1fr)); }
+.autoFill_224 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 224px), 1fr)); }
+.autoFill_232 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 232px), 1fr)); }
+.autoFill_240 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); }
+.autoFill_248 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 248px), 1fr)); }
+.autoFill_256 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 256px), 1fr)); }
+.autoFill_264 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 264px), 1fr)); }
+.autoFill_272 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 272px), 1fr)); }
+.autoFill_280 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
+.autoFill_288 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 288px), 1fr)); }
+.autoFill_296 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 296px), 1fr)); }
+.autoFill_304 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 304px), 1fr)); }
+.autoFill_312 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 312px), 1fr)); }
+.autoFill_320 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.autoFill_328 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 328px), 1fr)); }
+.autoFill_336 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 336px), 1fr)); }
+.autoFill_344 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 344px), 1fr)); }
+.autoFill_352 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 352px), 1fr)); }
+.autoFill_360 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); }
+.autoFill_368 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 368px), 1fr)); }
+.autoFill_376 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 376px), 1fr)); }
+.autoFill_384 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 384px), 1fr)); }
+.autoFill_392 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 392px), 1fr)); }
+.autoFill_400 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr)); }
+.autoFill_408 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 408px), 1fr)); }
+.autoFill_416 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 416px), 1fr)); }
+.autoFill_424 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 424px), 1fr)); }
+.autoFill_432 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 432px), 1fr)); }
+.autoFill_440 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); }
+.autoFill_448 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 448px), 1fr)); }
+
+.columns_1fr_max { grid-template-columns: 1fr max-content; }
+.columns_max_1fr { grid-template-columns: max-content 1fr; }
+.columns_max_auto { grid-template-columns: max-content auto; }
+.columns_max_1fr_max { grid-template-columns: max-content 1fr max-content; }
+.columns_min_1fr_min { grid-template-columns: min-content 1fr min-content; }
+.columns_1fr_1fr { grid-template-columns: repeat(2, 1fr); }
+.columns_1fr_1fr_1fr { grid-template-columns: repeat(3, 1fr); }
+.columns_1fr_1fr_1fr_1fr { grid-template-columns: repeat(4, 1fr); }
+
+.spaceBetween { justify-content: space-between; }

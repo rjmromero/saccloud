@@ -1,0 +1,18 @@
+.root { align-content: flex-start; align-items: center; display: flex; flex-flow: wrap; }
+
+.alignItems_center { align-items: center; }
+.alignItems_start { align-items: flex-start; }
+.alignItems_end { align-items: flex-end; }
+
+.center { justify-content: center }
+
+.end { justify-content: flex-end }
+
+.gap_8 { gap: 8px; }
+.gap_16 { gap: 16px; }
+.gap_24 { gap: 24px; }
+.gap_32 { gap: 32px; }
+.gap_40 { gap: 40px; }
+.gap_48 { gap: 48px; }
+
+.spaceBetween { justify-content: space-between; }
